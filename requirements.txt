@@ -1,0 +1,7 @@
+python-dotenv
+torch
+transformers
+
+
+langchain_huggingface
+langchain
