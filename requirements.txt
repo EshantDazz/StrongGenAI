@@ -4,4 +4,5 @@ transformers
 
 
 langchain_huggingface
+langchain_openai
 langchain
