@@ -3,6 +3,9 @@ langchain_openai
 langgraph
 langgraph-prebuilt
 langsmith
+langchain_tavily
+langchain-community
 
 python-dotenv
 rich
+wikipedia
