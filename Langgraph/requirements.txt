@@ -5,6 +5,7 @@ langgraph-prebuilt
 langsmith
 langchain_tavily
 langchain-community
+trustcall
 
 python-dotenv
 rich
