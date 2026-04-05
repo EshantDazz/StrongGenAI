@@ -1,0 +1,16 @@
+langchain_community
+langchain
+
+langchain_openai
+langchain-anthropic
+
+scikit-learn
+
+python-dotenv
+lxml
+beautifulsoup4
+
+langchain-text-splitters
+
+pandas
+pyarrow
