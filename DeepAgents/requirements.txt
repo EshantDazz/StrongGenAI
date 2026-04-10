@@ -5,3 +5,5 @@ deepagents
 
 python-dotenv
 tavily
+rich
+markdownify
