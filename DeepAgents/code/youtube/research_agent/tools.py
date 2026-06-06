@@ -4,11 +4,12 @@ This module provides search and content processing utilities for the research ag
 using Tavily for URL discovery and fetching full webpage content.
 """
 
+from typing import Annotated, Literal
+
 import httpx
 from langchain_core.tools import InjectedToolArg, tool
 from markdownify import markdownify
 from tavily import TavilyClient
-from typing_extensions import Annotated, Literal
 
 tavily_client = TavilyClient()
 
@@ -31,8 +32,8 @@ def fetch_webpage_content(url: str, timeout: float = 10.0) -> str:
         response = httpx.get(url, headers=headers, timeout=timeout)
         response.raise_for_status()
         return markdownify(response.text)
-    except Exception as e:
-        return f"Error fetching content from {url}: {str(e)}"
+    except Exception as e:  # noqa: BLE001
+        return f"Error fetching content from {url}: {e!s}"
 
 
 @tool(parse_docstring=True)

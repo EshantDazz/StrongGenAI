@@ -7,10 +7,10 @@ This module defines the extended agent state structure that supports:
 """
 
 from typing import Annotated, Literal, NotRequired
-from typing_extensions import TypedDict
 
 # from langgraph.prebuilt.chat_agent_executor import AgentState
 from langchain.agents import AgentState  # updated in 1.0
+from typing_extensions import TypedDict
 
 
 class Todo(TypedDict):
