@@ -5,5 +5,7 @@ langchain-groq
 langchain-google-genai
 langgraph
 
+langchain-mcp-adapters
+mcp #for using fastmcp
 
 python-dotenv
