@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_mcp_adapters.client import MultiServerMCPClient
 from langgraph.prebuilt import create_react_agent
-
+ 
 load_dotenv()
 
 
@@ -24,7 +24,7 @@ async def main():
     model = ChatGroq(model="qwen/qwen3-32b", temperature=0.0)
     agent = create_react_agent(model=model, tools=tools)
     math_response = await agent.ainvoke({
-        "messages": [{"role": "user", "content": "What is 5 + 7?"}]
+        "messages": [{"role": "user", "content": "What is the weather of Mumbai"}]
     })
     print("Math response:", math_response["messages"][-1].content)
 
