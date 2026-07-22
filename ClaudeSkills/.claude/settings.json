@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"/Users/eshantdas/Desktop/SelfStudy/PersonalTest/ClaudeSkills/.claude/skills/hello-world\")",
+      "Bash(mkdir -p \"/Users/eshantdas/Desktop/SelfStudy/PersonalTest/ClaudeSkills/.claude/skills/commit-helper\")",
+      "Edit(/.claude/skills/hello-world/**)",
+      "Edit(/.claude/skills/commit-helper/**)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(mkdir -p \"/Users/eshantdas/Desktop/SelfStudy/PersonalTest/ClaudeSkills/.claude/skills/hello-world/references\")",
+      "Bash(mkdir -p \"/Users/eshantdas/Desktop/SelfStudy/PersonalTest/ClaudeSkills/.claude/skills/hello-world/scripts\")",
+      "Bash(mkdir -p \"/Users/eshantdas/Desktop/SelfStudy/PersonalTest/ClaudeSkills/.claude/skills/commit-helper/references\")",
+      "Bash(mkdir -p \"/Users/eshantdas/Desktop/SelfStudy/PersonalTest/ClaudeSkills/.claude/skills/commit-helper/scripts\")",
+      "Bash(chmod +x \"/Users/eshantdas/Desktop/SelfStudy/PersonalTest/ClaudeSkills/.claude/skills/hello-world/scripts/list_files.sh\")",
+      "Bash(chmod +x \"/Users/eshantdas/Desktop/SelfStudy/PersonalTest/ClaudeSkills/.claude/skills/commit-helper/scripts/staged_summary.sh\")"
+    ]
+  }
+}
