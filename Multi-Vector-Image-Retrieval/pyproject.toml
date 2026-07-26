@@ -3,5 +3,33 @@ name = "multi-vector-image-retrieval"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "colpali-engine[interpretability]",
+    "fastembed==0.7.3",
+    "ipykernel>=7.3.0",
+    "jupyter==1.1.1",
+    "openai==2.2.0",
+    "pandas==2.3.2",
+    "pdf2image==1.17.0",
+    "plotly==6.3.0",
+    "pyarrow==21.0.0",
+    "python-dotenv==1.0.1",
+    "qdrant-client==1.15.1",
+    "scikit-learn==1.7.1",
+    "torch==2.5.1 ; sys_platform == 'darwin'",
+    "torch==2.5.1+cpu ; sys_platform != 'darwin'",
+    "torchvision==0.20.1 ; sys_platform == 'darwin'",
+    "torchvision==0.20.1+cpu ; sys_platform != 'darwin'",
+    "transformers==4.53.1",
+]
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform != 'darwin'" }]
+torchvision = [{ index = "pytorch-cpu", marker = "sys_platform != 'darwin'" }]
+colpali-engine = { git = "https://github.com/kacperlukawski/colpali.git", rev = "feature/colsmol-patches" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

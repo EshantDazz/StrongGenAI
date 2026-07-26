@@ -1,0 +1,9 @@
+sets.py
+__pycache__
+*.pyc
+__pycache__/
+ete.ipynb
+ete2.ipynb
+content_transformation_test_results.json
+__pycache__/*
+*.pyc
