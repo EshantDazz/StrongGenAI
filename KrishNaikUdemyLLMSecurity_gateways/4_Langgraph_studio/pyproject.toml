@@ -1,5 +1,5 @@
 [project]
-name = "krishnaikudemyllmsecurity-gateways"
+name = "4-langgraph-studio"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -20,7 +20,9 @@ dependencies = [
     "streamlit>=1.60.0",
 ]
 
-[tool.uv.workspace]
-members = [
-    "4_Langgraph_studio",
-]
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["agent*"]
