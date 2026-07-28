@@ -13,3 +13,6 @@ langgraph-cli[inmem]
 streamlit
 ipykernel
 
+logi
+logfire[httpx]
+logfire

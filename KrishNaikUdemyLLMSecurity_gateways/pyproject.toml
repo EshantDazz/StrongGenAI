@@ -16,6 +16,8 @@ dependencies = [
     "langgraph>=1.2.9",
     "langgraph-cli[inmem]>=0.4.31",
     "langsmith>=0.10.10",
+    "logfire[httpx]>=4.39.0",
+    "logi>=1.3.4",
     "python-dotenv>=1.2.2",
     "streamlit>=1.60.0",
 ]
