@@ -16,3 +16,7 @@ ipykernel
 logi
 logfire[httpx]
 logfire
+
+
+nemoguardrails
+fastembed
