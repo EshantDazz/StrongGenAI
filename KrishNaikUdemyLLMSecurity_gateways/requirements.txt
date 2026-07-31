@@ -20,3 +20,14 @@ logfire
 
 nemoguardrails
 fastembed
+
+
+
+guardrails-ai        # 0.10.1 was pulled (CVE-2026-45758); pin to clean 0.10.0
+litellm
+
+
+# DetectPII dependencies (light: Presidio + spaCy small model)
+presidio-analyzer
+presidio-anonymizer
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
