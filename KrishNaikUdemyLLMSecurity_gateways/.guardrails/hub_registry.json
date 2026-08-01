@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "validators": {
+    "guardrails/competitor_check": {
+      "import_path": "guardrails_grhub_competitor_check",
+      "exports": [
+        "CompetitorCheck"
+      ],
+      "installed_at": "2026-08-01T05:45:27.777420+00:00",
+      "package_name": "guardrails-grhub-competitor-check"
+    },
+    "guardrails/detect_pii": {
+      "import_path": "guardrails_grhub_detect_pii",
+      "exports": [
+        "DetectPII"
+      ],
+      "installed_at": "2026-08-01T05:48:01.311194+00:00",
+      "package_name": "guardrails-grhub-detect-pii"
+    },
+    "tryolabs/restricttotopic": {
+      "import_path": "tryolabs_grhub_restricttotopic",
+      "exports": [
+        "RestrictToTopic"
+      ],
+      "installed_at": "2026-08-01T05:50:57.213760+00:00",
+      "package_name": "tryolabs-grhub-restricttotopic"
+    }
+  }
+}
