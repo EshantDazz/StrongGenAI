@@ -1,0 +1,29 @@
+# --- UI ---
+streamlit
+python-dotenv
+requests
+nest-asyncio
+pandas
+
+# --- LANGCHAIN (required by RAGAS internals) ---
+langchain
+langchain-groq
+langchain-community
+langchain-openai
+pydantic
+
+# --- EVALS ---
+ragas
+openai
+sentence-transformers
+
+# --- OBSERVABILITY ---
+langsmith
+logfire[requests]
+loguru
+
+# --- NOTEBOOK ---
+ipykernel
+
+# --- EMBEDDINGS ---
+langchain-google-genai
