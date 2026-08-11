@@ -37,3 +37,5 @@ sentence-transformers
 portkey-ai
 
 deepeval
+
+mem0ai

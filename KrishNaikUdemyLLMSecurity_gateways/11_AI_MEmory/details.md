@@ -22,5 +22,21 @@ summary will have most of the words like football
 It keeps last 5 or 10 messages and beyond that it summarises.
 
 
-### token buffer memory
+### Token buffer memory
 More than a certain tokens it will forget and will rememeber only a certain numner of tokens related history
+
+### VectorStoreMemory
+
+No summary, no buffer. 
+Everytime a new question comes then a retrieve the top chunks  
+
+### Hybrid with vector
+some buffer like 3 to 4 last messages and apartå from that vector chunks top retrievals
+
+### Entity Memory(NER)
+My name is is Eshant. My Salary is 30k
+So we make entity maps
+[
+    name: Eshant
+    salary:30k
+]
