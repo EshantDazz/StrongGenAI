@@ -1,1 +1,4 @@
 - It is built is GO programming language which is faster in python and call multiple threads in a time which is not same in the case of python.
+
+
+- You can use JinaAI Free Embeddingsf

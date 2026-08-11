@@ -39,3 +39,5 @@ portkey-ai
 deepeval
 
 mem0ai
+
+langmem
