@@ -41,3 +41,8 @@ deepeval
 mem0ai
 
 langmem
+
+
+duckduckgo-search
+sentience-governor
+ddgs
